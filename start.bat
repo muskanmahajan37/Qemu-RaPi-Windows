@@ -1,0 +1,1 @@
+qemu-system-arm.exe -kernel kernel-qemu-4.4.34-jessie -cpu arm1176 -m 256 -M versatilepb -serial stdio -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -hda 2020-02-13-raspbian-buster-lite.img -redir tcp:2222::22
